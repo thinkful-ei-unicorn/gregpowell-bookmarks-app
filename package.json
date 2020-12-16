@@ -1,0 +1,30 @@
+{
+  "name": "bookmarks-app",
+  "version": "1.0.0",
+  "description": "An app that allows the user to bookmark, rate, list, and delete websites.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --open",
+    "build": "webpack --mode production",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Greg Powell",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^3.1.0",
+    "jquery": "^3.5.1",
+    "jquery-serializejson": "^3.1.1",
+    "serialize-json": "^1.0.3"
+  },
+  "devDependencies": {
+    "css-loader": "^4.2.1",
+    "expose-loader": "^1.0.3",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.3.0",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
