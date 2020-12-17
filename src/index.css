@@ -230,7 +230,7 @@ button:hover {
 }
 
 
-@media (max-width: 460px) {
+@media (min-width: 480px) {
   #filter-label {
     float: none;
     display: inline-block;
