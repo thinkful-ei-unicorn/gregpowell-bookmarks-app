@@ -2,14 +2,15 @@
 /* Header font and margin */
 h1 {
   font-family: 'Hammersmith One', sans-serif;
-  font-weight: 800;
-  font-size: 90px;
+  font-weight: 600;
+  font-size: 40px;
   text-align: center;
   margin-bottom: 0.5em;
 }
 
 body {
   font-family: 'Open Sans', sans-serif;
+  text-align: center;
 }
 
 /* Remove default padding from uls where bullets normally are */
@@ -23,7 +24,7 @@ ul {
   margin-top: 9.8px;
   margin-bottom: 9.8px;
   margin-right: 5px;
-  float: right;
+  float: left;
 }
 
 /***** New bookmark form *****/
@@ -54,7 +55,7 @@ form {
 
 /* Add space between new bookmark button and filter */
 .controls {
-  text-align: left;
+  text-align: center;
 }
 
 .controls button {
@@ -254,6 +255,11 @@ button:hover {
   }
 
   .bookmark-button {
-    float: none;
+    float: right;
+  }
+  h1 {
+    font-size: 90px;
+    font-weight: 800;
+    text-align: center;
   }
 }
