@@ -214,12 +214,12 @@ button {
   color: #555;
   cursor: pointer;
   display: inline-block;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 600;
   height: 38px;
   letter-spacing: 0.05rem;
   line-height: 34px;
-  padding: 0 26px;
+  padding: 0 14px;
   text-align: center;
   text-transform: uppercase;
 }
