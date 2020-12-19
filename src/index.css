@@ -225,10 +225,6 @@ button, .link-btn {
   text-decoration: none;
 }
 
-/* a.link-btn {
-  text-decoration: none;
-} */
-
 button:hover {
   color: rgb(46, 45, 45);
   border-color: #858383;
