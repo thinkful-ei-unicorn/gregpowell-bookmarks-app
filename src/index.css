@@ -207,7 +207,7 @@ label {
 }
 
 /***** Style buttons *****/
-button {
+button, .link-btn {
   background-color: transparent;
   border: 3px solid #00e6b4;
   box-sizing: border-box;
@@ -222,7 +222,12 @@ button {
   padding: 0 14px;
   text-align: center;
   text-transform: uppercase;
+  text-decoration: none;
 }
+
+/* a.link-btn {
+  text-decoration: none;
+} */
 
 button:hover {
   color: rgb(46, 45, 45);
