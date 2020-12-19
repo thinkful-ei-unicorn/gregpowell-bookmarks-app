@@ -49,7 +49,7 @@ import Store from './Store';
 
   // generating HTML for URLs
   function generateBookmarkURLHTML(bookmark) {
-    return `<a href='${bookmark.url}'><button class="js-btn-visit" aria-label="Visit site">VISIT</button></a>`;
+    return `<a href='${bookmark.url}' class="js-btn-visit link-btn" aria-label="Visit site" target="_blank">VISIT</a>`;
   }
 
   
